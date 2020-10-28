@@ -1,0 +1,93 @@
+.Navbar{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.FirstRowNavigation {
+ width: 100%;
+ display: flex;
+}
+
+.LeftOfNavigation {
+ width: 70%;
+ display: flex;
+ align-content: flex-start;
+ align-items: center;
+}
+
+.Logo {
+
+}
+
+.NavigationItems {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.NavigationItem {
+
+}
+
+.RightOfNavigation {
+ width: 30%;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.LanguageDropdown {
+
+}
+
+.SigninAndSearch{
+    display: flex;
+}
+
+.SearchIcon {
+
+}
+
+.SecondRowNavigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SecondRowNavigation_leftOptions {
+
+}
+
+.SecondRowNavigation_navItems{
+    display: flex;
+    list-style-type: none;
+}
+
+.SecondRowNavigation_navItem {
+
+}
+
+.SecondRowNavigation_rightOptions {
+    display: flex;
+    align-items: center;
+}
+
+.twitter_hashtag {
+
+}
+
+.socialMedia {
+
+}
+
+.socialMediaIcons{
+    display: flex;
+    list-style-type: none;
+}
+
+.socialMediaIcon{
+
+}
