@@ -1,0 +1,146 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #222833;
+}
+
+.Footer_Top {
+
+}
+
+.Footer_Content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subscribe_Message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Subscribe_Heading {
+    align-self: flex-start;
+    color: white;
+}
+
+.Subscribe_Para{
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #84919c;
+}
+
+.Subscribe_Form {
+    display: flex;
+    align-items: center;
+}
+
+.Subscribe_Form > form > input {
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    align-self: center;
+    background-color: #222833;
+    color: #84919c;
+    width: 200px;
+    height: 33px;
+}
+
+.Subscribe_Form_email {
+
+}
+
+.Subscribe_Form_Submit {
+    padding: 10px;
+    background-color: #008cf0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    align-self: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 49px;
+}
+
+.FollowUsSocialIcons {
+    display: flex;
+    align-items: center;
+}
+
+.Follow_Us {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+
+.Social_Icon_Block {
+
+}
+
+.Social_Icons {
+    list-style-type: none;
+    display: flex;
+}
+
+.Social_Icon {
+
+}
+
+.Footer_Middle {
+
+}
+
+.Footer_Columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer_Column_Heading {
+    align-self: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+.Footer_Links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+.Footer_Link {
+    align-self: flex-start;
+    padding-bottom: 17px;
+}
+
+.Footer_Link > a {
+    text-decoration: none;
+    color: #008cf0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+.Footer_Bottom {
+
+}
+
+.Footer_Content {
+
+}
+
+.Copyright {
+
+}
+
+.PolicyAndTerms {
+
+}
