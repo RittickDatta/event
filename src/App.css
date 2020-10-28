@@ -1,5 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/9e860986b7adde47ca5d9cc67c9d3d73?family=NeueHelveticaW01-79CmBold);
-@import url(//db.onlinewebfonts.com/c/69b1de69cd6d7ab6309c85af7ee4ec2b?family=NeueHelveticaW01-39CmThin);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -7,11 +7,11 @@
 h1,
 h2,
 h3 {
-  font-family: 'NeueHelveticaW01-79CmBold';
+ 
 }
 
 p {
-  font-family: 'NeueHelveticaW01-39CmThin';
+
 }
 
 
