@@ -1,0 +1,95 @@
+.HeroSectionWrapper {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 32, 41) 100%), url("https://assets.weforum.org/event/background_image/NkvrTEmnt6UWUIti5v45zSfL8WONUaL9gAaIMUC8oCw.jpg");
+    height: 382px;
+}
+
+.BackgroundStyle {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.ContentWrapper {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: 
+     "left right";
+     height: 100%;
+}
+
+/* Content Left */
+.Content_Left {
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.LocationAndDate {
+    
+}
+
+.Location {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 7px;
+}
+
+.Date {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.Main_Heading {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Content Right */
+
+.Content_Right {
+    grid-area: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Heading {
+    display: flex;
+    justify-content: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+}
+
+.Para {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    line-height: 1.75rem;
+}

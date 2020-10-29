@@ -2,6 +2,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #222833;
+    width: 100%;
 }
 
 .Footer_Top {
@@ -47,6 +48,7 @@ footer {
     color: #84919c;
     width: 200px;
     height: 33px;
+    vertical-align: middle;
 }
 
 .Subscribe_Form_email {
@@ -64,6 +66,8 @@ footer {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     height: 49px;
+    height: 58px;
+    vertical-align: middle;
 }
 
 .FollowUsSocialIcons {
